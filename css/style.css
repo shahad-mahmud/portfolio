@@ -1,0 +1,60 @@
+html, body{
+	background-color: red;
+	height: 100%;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 10px;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+#about{
+	min-height: 100%;
+	background-color: black;
+}
+
+#left_split{
+	width: 50%; 
+	background-color: inherit;
+	text-align: center;
+	top: 50%;
+	position: absolute; 
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+}
+
+#right_split{
+	width: 50%; 
+	background-color: inherit;
+	top: 50%;
+	position: absolute; 
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 0;
+}
+
+#text{
+	padding: 10px;
+	color: white;
+}
+
+.edu{
+	min-height: 100%;
+	background-color: green;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
