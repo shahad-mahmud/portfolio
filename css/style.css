@@ -34,22 +34,99 @@ h1{
 	position: absolute; 
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	left: 8.2px;
+	left: -8.2px;
 	padding: 16px;
 	border-right: 1px solid white;
 }
 
 #right_split{
-	width: 50%; 
+	width: 49%; 
 	background-color: inherit;
 	top: 50%;
 	position: absolute; 
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	right: -8.2px;
+	right: 8.2px;
 	padding: 16px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+}
+
+#ruet{
+	font-variant: small-caps; 
+	font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 938px) {
+	h1{
+		font-size: 35px;
+		font-weight: bolder;
+		font-variant: small-caps;
+		color: #E4E0E6;
+	}
+		#ruet{
+		font-variant: small-caps; 
+		font-size: 15px;
+	}
+
+	#left_split{
+		left: -8.2px;
+	}
+
+	#right_split{
+		right: 8.2px;
+		background-color: inherit;
+	}
+		img {
+	  border-radius: 50%;
+	  max-width: 200px;
+	  max-height: 200px;
+	  margin: 10px;
+	}
+}
+
+@media only screen and (max-width: 753px) {
+	h1{
+		font-size: 35px;
+		font-weight: bolder;
+		font-variant: small-caps;
+		color: #E4E0E6;
+	}
+	#ruet{
+		font-variant: small-caps; 
+		font-size: 14px;
+	}
+
+	#left_split{
+		background-color: inherit;
+		text-align: center;
+		width: 99%;
+		top: 50%;
+		position: relative;
+		-ms-transform: translateY(-0%);
+		transform: translateY(-0%);
+		left: -8.2px;
+		border: none;
+	}
+
+	#right_split{
+		background-color: inherit;
+		text-align: center;
+		width: 99%;
+		position: relative;
+		-ms-transform: translateY(-0%);
+		transform: translateY(-0%);
+		left: 8.2px;
+		
+	}
+		img {
+	  border-radius: 50%;
+	  max-width: 200px;
+	  max-height: 200px;
+	  margin: 10px;
+	}
 }
 
 #text{
@@ -209,6 +286,7 @@ h1{
 	width: 8px;
 	height: 100%;
 	background: #E7E7E7;
+	right: 0;
 }
 
 .progress-bar {

@@ -19,10 +19,10 @@
 		<div id="right_split">
 			<div id="text">
 				<h1>Shahad Mahmud</h1>
-				<p style="font-variant: small-caps; font-size: 20px;">Rajshahi University of Engineering & Technology<br>
+				<p id="ruet">Rajshahi University of Engineering & Technology<br>
 				Web and Android applications Developer</p>
 			</div>
-			
+
 		</div>
 
 		
@@ -34,7 +34,7 @@
 				Education	
 			</div>
 
-			<div class="timeline">
+			<div class="timeline" style="text-align: justify;">
 				<div class="container left">
 					<div class="content">
 						<h2 style="color: #263429">2010</h2>
