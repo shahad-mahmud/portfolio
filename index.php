@@ -2,10 +2,12 @@
 <html>
 <head>
 	<title>Shahad Mahmud</title>
+	<link rel="shortcut icon" href="/portfolio/res/round.png" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" type="text/css" href="/portfolio/css/style.css">
-	<script src="/portfolio/js/jquery-2.1.4.min.js"></script>
-	<script src="/portfolio/js/skill.bars.jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/skill.bars.jquery.js"></script>
 </head>
 <body>
 
@@ -85,7 +87,12 @@ function myFunction() {
 		<div style="font-size: 65px; text-align: center; margin: 30px 0; font-variant: small-caps; font-weight: bold;">
 			Skills	
 		</div>
-		<link rel="stylesheet" type="text/css" href="/portfolio/css/barstyle.css">
+
+<!--*************************************************************************************-->
+<!--*************************************************************************************-->
+		<link rel="stylesheet" type="text/css" href="css/barstyle.css">
+<!--*************************************************************************************-->
+<!--*************************************************************************************-->
 
 		<div class="wrapper">
 		    <div class="skillbar" data-percent="90">
@@ -102,7 +109,7 @@ function myFunction() {
 		    </div>
 		    <!-- End Skill Bar -->
 		    
-		    <div class="skillbar" data-percent="35">
+		    <div class="skillbar" data-percent="55">
 		      <span class="skillbar-title" style="background: #9F8F28;">Javascript</span>
 		      <p class="skillbar-bar" style="background: #D3BE35;"></p>
 		      <span class="skill-bar-percent"></span>
@@ -122,8 +129,35 @@ function myFunction() {
 		      <span class="skill-bar-percent"></span>
 		    </div>
 		    <!-- End Skill Bar -->
+
+		    <div class="skillbar" data-percent="35">
+		      <span class="skillbar-title" style="background: #9138B3;">Java</span>
+		      <p class="skillbar-bar" style="background: #BD4BE8;"></p>
+		      <span class="skill-bar-percent"></span>
+		    </div>
+		    <!-- End Skill Bar -->
+
+		    <div class="skillbar" data-percent="60">
+		      <span class="skillbar-title" style="background: #3AC3BB;">Algorithms</span>
+		      <p class="skillbar-bar" style="background: #45F3E9;"></p>
+		      <span class="skill-bar-percent"></span>
+		    </div>
+		    <!-- End Skill Bar -->
 		</div>
 		
+	</div>
+
+
+	<div class="footer">
+		<h1 style="margin: 8px; font-size: 60px;">Let's work together...</h1>
+		<button class="btn">Resume</button>
+		<div class="links">
+			<a href="https://web.facebook.com/shahad001" target="_blank"  class="fa fa-facebook"></a>
+			<a href="https://linkedin.com/in/shahad-mahmud" target="_blank" class="fa fa-linkedin"></a>
+			<a href="https://instagram.com/shahad_chowdhury" target="_blank" class="fa fa-instagram"></a>
+			<a href="https://github.com/shahad-mahmud" target="_blank" class="fa fa-github"></a>
+			<a href="mailto:shahad9381@gmail.com" target="_blank" class="fa fa-at"></a>
+		</div>
 	</div>
 
 </body>
@@ -131,6 +165,7 @@ function myFunction() {
 	// When the user scrolls the page, execute myFunction 
 	window.onscroll = function() {
 		myFunction()
+		IsInView()
 	};
 
 	function myFunction() {
@@ -142,7 +177,7 @@ function myFunction() {
 
 	//the great (!!!) skill bar triger
 	var triggered = false;
-	window.onscroll = function() { IsInView()	};
+	//window.onscroll = function() { IsInView()	};
 
 	function IsInView(){
 		var skillDiv = document.getElementById("skill");
